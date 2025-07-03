@@ -10,7 +10,7 @@ jobs:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: incoming-webhook
           payload: |
-            text: "we are from github action"
+            text: "we are from github actions"
             channel: "devops-2510-13"
 
         
