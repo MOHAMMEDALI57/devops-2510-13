@@ -11,7 +11,7 @@ jobs:
           webhook-type: incoming-webhook
           payload: |
             text: "we are from github actions"
-            channel: "devops-2510-13"
+            channel: "webhook"
 
         
       
